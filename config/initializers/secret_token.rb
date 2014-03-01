@@ -9,4 +9,19 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-MavenYouth::Application.config.secret_key_base = 'cbd14feffe5cd83b5b9a775298eea162c0186ad288712d0e5bdeb93be4b946955c0b1d3b80006bd8d5d91f96f767b66d7070db0d7f593a240734f45916e99d45'
+require 'securerandom'
+
+def secure_token
+  token_file = Rails.root.join('.secret')
+  if File.exist?(token_file)
+    # Use the existing token.
+    File.read(token_file).chomp
+  else
+    # Generate a new token and store it in token_file.
+    token = SecureRandom.hex(64)
+    File.write(token_file, token)
+    token
+  end
+end
+
+MavenYouth::Application.config.secret_key_base = secure_token
