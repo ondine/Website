@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
@@ -21,6 +22,8 @@ group :production do
 end
 
 gem 'sass-rails', '4.0.1'
+gem 'rails_layout'
+gem 'bootstrap-sass', '~> 3.1.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
