@@ -1,208 +1,136 @@
 !!!
-%html
-  %body
-    %p
-      {lang: "en-US"}
-    / start container
-    .header-container
-      .container_24
-        .grid_24
-          .header
-            .grid_6.logo.alpha
-              .logo
-                %a
-                  {href: "http://staging.mymaven.org"}
-                  = succeed "{alt:" do
-                    %img/
-            .grid_18.omega
-              .navigation
-                #menu
-                  %ul.ddsmoothmenu
-                    %li.current_page_item
-                      %a {href: "http://staging.mymaven.org/"} Home
-                    %li.page_item.page-item-6.page_item_has_children
-                      %a {href: "http://staging.mymaven.org/about-us/"} The World of Maven
-                      %ul.children
-                        %li.page_item.page-item-938
-                          %a {href: "http://staging.mymaven.org/about-us/organizations/"} Organizations
-                        %li.page_item.page-item-48
-                          %a {href: "http://staging.mymaven.org/about-us/activism/"} Activism
-                        %li.page_item.page-item-51
-                          %a {href: "http://staging.mymaven.org/about-us/history-of-movement/"} History of Movement
-                        %li.page_item.page-item-43
-                          %a {href: "http://staging.mymaven.org/about-us/networking/"} Networking
-                        %li.page_item.page-item-125
-                          %a {href: "http://staging.mymaven.org/about-us/non-profits-serving-queer-youth/"} Non-Profits Serving Queer Youth
-                        %li.page_item.page-item-127
-                          %a {href: "http://staging.mymaven.org/about-us/maven-team/"} Maven Team
-                    %li.page_item.page-item-296.page_item_has_children
-                      %a {href: "http://staging.mymaven.org/digital-badges/"} Digital Badges
-                      %ul.children
-                        %li.page_item.page-item-579
-                          %a {href: "http://staging.mymaven.org/digital-badges/activity/"} Activity
-                        %li.page_item.page-item-581
-                          %a {href: "http://staging.mymaven.org/digital-badges/members/"} Members
-                        %li.page_item.page-item-588
-                          %a {href: "http://staging.mymaven.org/digital-badges/groups/"} Groups
-                    %li.page_item.page-item-445.page_item_has_children
-                      %a {href: "http://staging.mymaven.org/hack/"} Hack 4 Queer Youth
-                      %ul.children
-                        %li.page_item.page-item-362
-                          %a {href: "http://staging.mymaven.org/hack/lgbt-youth-participation/"} LGBT Youth Participation
-                        %li.page_item.page-item-366
-                          %a {href: "http://staging.mymaven.org/hack/tech-professionals/"} Tech Professionals
-                        %li.page_item.page-item-405
-                          %a {href: "http://staging.mymaven.org/hack/queer-youth-organziations/"} Queer Youth Organziations
-                        %li.page_item.page-item-517
-                          %a {href: "http://staging.mymaven.org/hack/meet-the-judges/"} Meet the Judges
-                        %li.page_item.page-item-537
-                          %a {href: "http://staging.mymaven.org/hack/prizes/"} Prizes
-                    %li.page_item.page-item-45.page_item_has_children
-                      %a {href: "http://staging.mymaven.org/education/"} Education
-                      %ul.children
-                        %li.page_item.page-item-925.page_item_has_children
-                          %a {href: "http://staging.mymaven.org/education/history/"} Queer History Library
-                          %ul.children
-                            %li.page_item.page-item-700
-                              %a {href: "http://staging.mymaven.org/education/history/the-stonewall-riots/"} History: The Stonewall Riots
-                            %li.page_item.page-item-1124
-                              %a {href: "http://staging.mymaven.org/education/history/history-dont-ask-dont-tell/"} History: Don’t Ask, Don’t Tell
-                            %li.page_item.page-item-1127
-                              %a {href: "http://staging.mymaven.org/education/history/history-the-employment-non-discrimination-act/"} History: The Employment Non-Discrimination Act
-                            %li.page_item.page-item-1134
-                              %a {href: "http://staging.mymaven.org/education/history/history-the-defense-of-marriage-act/"} History: The Defense of Marriage Act
-                            %li.page_item.page-item-1137
-                              %a {href: "http://staging.mymaven.org/education/history/biography-sylvia-rivera/"} Biography: Sylvia Rivera
-                            %li.page_item.page-item-1140
-                              %a {href: "http://staging.mymaven.org/education/history/biography-leslie-feinberg/"} Biography: Leslie Feinberg
-                            %li.page_item.page-item-984
-                              %a {href: "http://staging.mymaven.org/education/history/the-compton-cafeteria-riots/"} History: The Compton Cafeteria Riots
-                            %li.page_item.page-item-1018
-                              %a {href: "http://staging.mymaven.org/education/history/biography-harvey-milk/"} Biography: Harvey Milk
-                            %li.page_item.page-item-1023
-                              %a {href: "http://staging.mymaven.org/education/history/biography-gertrude-stein/"} Biography: Gertrude Stein and Alice Toklas
-                            %li.page_item.page-item-1026
-                              %a {href: "http://staging.mymaven.org/education/history/the-hivaids-epidemic/"} History: The HIV/AIDS Epidemic
-                            %li.page_item.page-item-1058
-                              %a {href: "http://staging.mymaven.org/education/history/biography-gwen-araujo/"} Biography: Gwen Araujo
-                            %li.page_item.page-item-1061
-                              %a {href: "http://staging.mymaven.org/education/history/biography-brandon-teena/"} Biography: Brandon Teena
-          / End Header
-        .clear
-    .clear
-    .top_strip
-    .second-header
-      .container_24
-        .grid_24
-          / start slider
-          .slider-main
-            #slides
-              #slide-box
-                .slides_container.col-full
-                  / Start Slide1
-                  .slide
-                    / // End $type IF Statement
-                    .entry
-                      %h2 Bridging the Technology Gap Between LGBTQA Centers and LGBTQA Youth!
-                      %p Maven is an interactive virtual community for LGBTQA youth to network, organize and educate for social change.
-                      %a.btn-1
-                        {href: "http://staging.mymaven.org/?page_id=6"}
-                        %span Cyber World
-                      %a.btn-2
-                        {href: "http://staging.mymaven.org/wp-register.php"}
-                        %span Become a Member!
-                    .images
-                      %img>/
-                      {alt: "", src: "http://staging.mymaven.org/wp-content/uploads/2013/08/testwebimage2.jpg"}/
-                  / End slide
-                / /.slides_container
-              / /#slide-box
-        .clear
-    .strip_line
-    / end slider
-    .index-container.first_featured
-      .container_24
-        .grid_24
-          .feature-index
-            .grid_12.alpha
-              .feature-one
-                %h1 Out Online: The Experiences of LGBT Youth on the Internet
-                %p
-                  According to a new report released in 2013 by GLSEN, the Gay, Lesbian & Straight Education Network, LGBT youth are seeking support and friends online.
-                  Key Findings
-                  •50% of LGBT youth reported having at least one close online friend, compared to only 19% of non-LGBT youth.
-                  •LGBT youth rated their online friends as more supportive than non-LGBT youth rated their online friends.
-                  •Two-thirds of LGBT youth (62%) had used the Internet to connect with other LGBT people in the past year.
-                  •More than half (52%) of LGBT youth who were not out to peers in person had used the Internet with other LGBT people.
-                  •LGBT youth reported high rates of civic engagement online (77%).
-            .grid_12.omega
-              .testimonial_holder
-                .sliderHolder2
-                  %h1 Create New Ways to Distribute LGBT Data
-                  %ul
-                    %li.testimonial-list
-                      .testimonial_jcarousel
-                        %img>/
-                        {alt: "small_image", height: "100px", src: "http://staging.mymaven.org/wp-content/uploads/2013/08/Zig.jpg", width: "100px"}/
-                        %p "Without a doubt, LGBT advocacy organizations need the support of technology to advance their mission and extend the impact of their work. However, many lack the capacity-financially and physically-to seek out or take advantage of new technologies that can better engage constituents or streamline programmatic work." - Dr. Ziegler, Trans*H4CK: Hacking for Transgender Empowerment.
-        .clear
-      .container-strip
-    / start content
-    .index-container
-      .container_24
-        .grid_24
-          .content
-            .feature-content.one_half
-              %img.feature-image>/
-              {alt: "small_image", src: "http://staging.mymaven.org/wp-content/uploads/2013/08/dr.jpg"}/
-              .inner-content
-                %h3 The Impact Online Support Can Offer
-                %p "The Internet does not serve to simply reinforce the negative dynamics found offline regarding bullying and harassment rather, this technology also offers LGBT youth critical tools for coping with these negative experiences, including access to understanding and accepting friends, and exposure to health information that is unavailable elsewhere.”  - Dr. Michele Ybarra, President and Research Director of the Center for Innovative Public Health Research.  “
-            .feature-content.one_half.last
-              %img.feature-image>/
-              {alt: "small_image", src: "http://staging.mymaven.org/wp-content/uploads/2013/08/GLSEN.jpg"}/
-              .inner-content
-                %h3 Social Media Evolves So Must Our Efforts
-                %p “LGBT youth continue to face extraordinary obstacles in their day-to-day lives whether at school or online, but the Internet can be a valuable source of information and support when they have no one or nowhere else left to turn to. As social media evolve, so must our efforts to serve LGBT youth to ensure their safety, health and well-being.” - Dr. Eliza Byard, GLSEN’s Executive Director
-            .feature-content.one_half
-              %img.feature-image>/
-              {alt: "small_image", src: "http://staging.mymaven.org/wp-content/uploads/2013/08/william.jpg"}/
-              .inner-content
-                %h3 Digital Reality
-                %p "One of the things our grandchildren will find quaintest about us is we distinguish digital from the "real", in the future that will become literally impossible." - William Gibson, American-Canadian Author
-            .feature-content.one_half.last
-              %img.feature-image>/
-              {alt: "small_image", src: "http://staging.mymaven.org/wp-content/uploads/2013/08/matt.jpg"}/
-              .inner-content
-                %h3 Video Games Can Support Queer Youth
-                %p "I wished I could have just been myself and honest about being a queer geek. … Games were my only escape for me. They allowed me to live in another world … having a team with me as we stormed Booster's Castle in Super Mario RPG or defeating the evil Porky in Earthbound … really was magical." - Matt Conn, Co-Founder of GaymerX
-        .clear
-    / end content
-    / start box
-    / end box
-    .clear
-    / start footer
-    .main-footer
-      .container_24
-        .grid_24
-          .footer
-            .grid_6.alpha
-              .footer-one
-            .grid_6
-              .footer-two
-            .grid_6
-              %div
-            .grid_6.omega
-              .footer-search
-        .clear
-    .bottom-footer-container
-      .container_24
-        .grid_24
-          .bottom-footer
-            %ul.social_logos
-            %span.copyright
-              %a {href: "http://www.inkthemes.com"} Figero Theme
-              Powered By
-              %a {href: "http://www.wordpress.org"} WordPress
-    / footer close
-    / end container
+%html(lang="en-US")
+	%body
+		.header
+			.logo
+				%a(href="http://staging.mymaven.org")
+			%nav
+				%ul.ddsmoothmenu
+					%li.current_page_item
+						%a(href="http://staging.mymaven.org/") Home
+					%li.page_item.page-item-6.page_item_has_children
+						%a(href="http://staging.mymaven.org/about-us/") The World of Maven
+						%ul.children
+							%li.page_item.page-item-938
+								%a(href="http://staging.mymaven.org/about-us/organizations/") Organizations
+							%li.page_item.page-item-48
+								%a(href="http://staging.mymaven.org/about-us/activism/") Activism
+							%li.page_item.page-item-51
+								%a(href="http://staging.mymaven.org/about-us/history-of-movement/") History of Movement
+							%li.page_item.page-item-43
+								%a(href="http://staging.mymaven.org/about-us/networking/") Networking
+							%li.page_item.page-item-125
+								%a(href="http://staging.mymaven.org/about-us/non-profits-serving-queer-youth/") Non-Profits Serving Queer Youth
+							%li.page_item.page-item-127
+								%a(href="http://staging.mymaven.org/about-us/maven-team/") Maven Team
+					%li.page_item.page-item-296.page_item_has_children
+						%a(href="http://staging.mymaven.org/digital-badges/") Digital Badges
+						%ul.children
+							%li.page_item.page-item-579
+								%a(href="http://staging.mymaven.org/digital-badges/activity/") Activity
+							%li.page_item.page-item-581
+								%a(href="http://staging.mymaven.org/digital-badges/members/") Members
+							%li.page_item.page-item-588
+								%a(href="http://staging.mymaven.org/digital-badges/groups/") Groups
+					%li.page_item.page-item-445.page_item_has_children
+						%a(href="http://staging.mymaven.org/hack/") Hack 4 Queer Youth
+						%ul.children
+							%li.page_item.page-item-362
+								%a(href="http://staging.mymaven.org/hack/lgbt-youth-participation/") LGBT Youth Participation
+							%li.page_item.page-item-366
+								%a(href="http://staging.mymaven.org/hack/tech-professionals/") Tech Professionals
+							%li.page_item.page-item-405
+								%a(href="http://staging.mymaven.org/hack/queer-youth-organziations/") Queer Youth Organziations
+							%li.page_item.page-item-517
+								%a(href="http://staging.mymaven.org/hack/meet-the-judges/") Meet the Judges
+							%li.page_item.page-item-537
+								%a(href="http://staging.mymaven.org/hack/prizes/") Prizes
+					%li.page_item.page-item-45.page_item_has_children
+						%a(href="http://staging.mymaven.org/education/") Education
+						%ul.children
+							%li.page_item.page-item-925.page_item_has_children
+								%a(href="http://staging.mymaven.org/education/history/") Queer History Library
+								%ul.children
+									%li.page_item.page-item-700
+										%a(href="http://staging.mymaven.org/education/history/the-stonewall-riots/") History: The Stonewall Riots
+									%li.page_item.page-item-1124
+										%a(href="http://staging.mymaven.org/education/history/history-dont-ask-dont-tell/") History: Don’t Ask, Don’t Tell
+									%li.page_item.page-item-1127
+										%a(href="http://staging.mymaven.org/education/history/history-the-employment-non-discrimination-act/") History: The Employment Non-Discrimination Act
+									%li.page_item.page-item-1134
+										%a(href="http://staging.mymaven.org/education/history/history-the-defense-of-marriage-act/") History: The Defense of Marriage Act
+									%li.page_item.page-item-1137
+										%a(href="http://staging.mymaven.org/education/history/biography-sylvia-rivera/") Biography: Sylvia Rivera
+									%li.page_item.page-item-1140
+										%a(href="http://staging.mymaven.org/education/history/biography-leslie-feinberg/") Biography: Leslie Feinberg
+									%li.page_item.page-item-984
+										%a(href="http://staging.mymaven.org/education/history/the-compton-cafeteria-riots/") History: The Compton Cafeteria Riots
+									%li.page_item.page-item-1018
+										%a(href="http://staging.mymaven.org/education/history/biography-harvey-milk/") Biography: Harvey Milk
+									%li.page_item.page-item-1023
+										%a(href="http://staging.mymaven.org/education/history/biography-gertrude-stein/") Biography: Gertrude Stein and Alice Toklas
+									%li.page_item.page-item-1026
+										%a(href="http://staging.mymaven.org/education/history/the-hivaids-epidemic/") History: The HIV/AIDS Epidemic
+									%li.page_item.page-item-1058
+										%a(href="http://staging.mymaven.org/education/history/biography-gwen-araujo/") Biography: Gwen Araujo
+									%li.page_item.page-item-1061
+										%a(href="http://staging.mymaven.org/education/history/biography-brandon-teena/") Biography: Brandon Teena
+		/ end header
+		#slide-box
+			.slides_container.col-full
+				/ Start Slide1
+				.slide
+					/ // End $type IF Statement
+					.entry
+						%h2 Bridging the Technology Gap Between LGBTQA Centers and LGBTQA Youth!
+						%p Maven is an interactive virtual community for LGBTQA youth to network, organize and educate for social change.
+						%a.btn-1(href="http://staging.mymaven.org/?page_id=6")
+							%span Cyber World
+						%a.btn-2(href="http://staging.mymaven.org/wp-register.php")
+							%span Become a Member!
+					.images
+						%img(alt="" src="http://staging.mymaven.org/wp-content/uploads/2013/08/testwebimage2.jpg")
+		.index-container.first_featured
+			.feature-one
+				%h1 Out Online: The Experiences of LGBT Youth on the Internet
+				%p
+					According to a new report released in 2013 by GLSEN, the Gay, Lesbian & Straight Education Network, LGBT youth are seeking support and friends online.
+					Key Findings
+					•50% of LGBT youth reported having at least one close online friend, compared to only 19% of non-LGBT youth.
+					•LGBT youth rated their online friends as more supportive than non-LGBT youth rated their online friends.
+					•Two-thirds of LGBT youth (62%) had used the Internet to connect with other LGBT people in the past year.
+					•More than half (52%) of LGBT youth who were not out to peers in person had used the Internet with other LGBT people.
+					•LGBT youth reported high rates of civic engagement online (77%).
+			.testimonial_holder
+				.sliderHolder2
+					%h1 Create New Ways to Distribute LGBT Data
+					%ul
+						%li.testimonial-list
+							.testimonial_jcarousel
+								%img(alt="small_image" height="100px" src="http://staging.mymaven.org/wp-content/uploads/2013/08/Zig.jpg" width="100px")
+								%p "Without a doubt, LGBT advocacy organizations need the support of technology to advance their mission and extend the impact of their work. However, many lack the capacity-financially and physically-to seek out or take advantage of new technologies that can better engage constituents or streamline programmatic work." - Dr. Ziegler, Trans*H4CK: Hacking for Transgender Empowerment.
+		/ start content
+		.index-container
+			.content
+				.feature-content.one_half
+					%img.feature-image(alt="small_image" src="http://staging.mymaven.org/wp-content/uploads/2013/08/dr.jpg")
+					.inner-content
+						%h3 The Impact Online Support Can Offer
+						%p "The Internet does not serve to simply reinforce the negative dynamics found offline regarding bullying and harassment rather, this technology also offers LGBT youth critical tools for coping with these negative experiences, including access to understanding and accepting friends, and exposure to health information that is unavailable elsewhere.”  - Dr. Michele Ybarra, President and Research Director of the Center for Innovative Public Health Research.  “
+				.feature-content.one_half.last
+					%img.feature-image(alt="small_image" src="http://staging.mymaven.org/wp-content/uploads/2013/08/GLSEN.jpg")
+					.inner-content
+						%h3 Social Media Evolves So Must Our Efforts
+						%p “LGBT youth continue to face extraordinary obstacles in their day-to-day lives whether at school or online, but the Internet can be a valuable source of information and support when they have no one or nowhere else left to turn to. As social media evolve, so must our efforts to serve LGBT youth to ensure their safety, health and well-being.” - Dr. Eliza Byard, GLSEN’s Executive Director
+				.feature-content.one_half
+					%img.feature-image(alt="small_image" src="http://staging.mymaven.org/wp-content/uploads/2013/08/william.jpg")
+					.inner-content
+						%h3 Digital Reality
+						%p "One of the things our grandchildren will find quaintest about us is we distinguish digital from the "real", in the future that will become literally impossible." - William Gibson, American-Canadian Author
+				.feature-content.one_half.last
+					%img.feature-image(alt="small_image" src="http://staging.mymaven.org/wp-content/uploads/2013/08/matt.jpg")
+					.inner-content
+						%h3 Video Games Can Support Queer Youth
+						%p "I wished I could have just been myself and honest about being a queer geek. … Games were my only escape for me. They allowed me to live in another world … having a team with me as we stormed Booster's Castle in Super Mario RPG or defeating the evil Porky in Earthbound … really was magical." - Matt Conn, Co-Founder of GaymerX
+		/ end content
+		/ end container
